@@ -13,7 +13,7 @@ To support **OpenGL 3.3 all the way to 4.3+**, your shader should include the fo
 
 ```glsl
 // Use at least version 330
-#version 330 compatibility
+#version 430 core
 
 // Required for SSBO support on OpenGL < 4.3
 #extension GL_ARB_shader_storage_buffer_object : enable
